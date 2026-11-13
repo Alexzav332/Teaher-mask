@@ -41,7 +41,7 @@ document.body.insertAdjacentHTML('afterbegin', `<div class="bg" aria-hidden="tru
 <nav class="header__nav">${NAV.map(n => `<a class="header__link ${n[0] === PAGE ? 'header__link--active' : ''}" href="${n[1]}">${n[2]}</a>`).join('')}</nav></div></header>`);
 $('#app').insertAdjacentHTML('afterend', `<footer class="footer"><div class="wrap footer__in">
 <div><b style="color:var(--gold);font-family:var(--serif);font-size:1.2rem">Театр «Маска»</b><br>ул. Театральная, 12 · Ежедневно 10:00–21:00</div>
-<div>+7 (495) 123-45-67<br>info@mask-theatre.ru</div><div>© 2026 Театр «Маска». Все права защищены. Учебный проект.</div></div></footer>
+<div>+7 (495) 123-45-67<br>info@mask-theatre.ru</div><div>© 2026 Театр «Маска». Учебный проект.<div> Все права защищены.</div></div></div></footer>
 <div class="modal" id="modal"><div class="modal__box" id="modalBox"></div></div>
 <button class="up" id="up" aria-label="Наверх">↑</button>`);
 
